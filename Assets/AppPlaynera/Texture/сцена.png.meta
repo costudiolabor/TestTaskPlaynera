@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 8d9eaba3f3979614e935cf7b130dd2f0
+guid: ff9f016c924664f43887430c794ce11d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9182177788924653191
-    second: banana_0
+      213: -6065351763808315369
+    second: "\u0441\u0446\u0435\u043D\u0430_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
-    sRGBTexture: 1
+    sRGBTexture: 0
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,7 +100,7 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 34
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: banana_0
+      name: "\u0441\u0446\u0435\u043D\u0430_0"
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 200
-        height: 199
+        y: 0
+        width: 1280
+        height: 218
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9711aa243f9529080800000000000000
-      internalID: -9182177788924653191
+      spriteID: 7189a68d4ba83dba0800000000000000
+      internalID: -6065351763808315369
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      banana_0: -9182177788924653191
+      "\u0441\u0446\u0435\u043D\u0430_0": -6065351763808315369
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

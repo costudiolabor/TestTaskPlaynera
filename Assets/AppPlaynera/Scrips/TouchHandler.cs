@@ -5,11 +5,9 @@ using UnityEngine;
 public class TouchHandler {
     [SerializeField] private Camera mainCamera;
     [SerializeField] private float sensitive = 0.01f;
-    
-    public event Action ClickEvent, DropEvent;
+    public event Action ClickEvent, DropEvent, DragEvent;
     public event Action<Item> ClickItemEvent;
     public event Action<Vector2> ChangeDragEvent;
-    private event Action DragEvent;
 
     private Vector2 _currentPosition;
     private Vector2 _lastPosition;
@@ -61,6 +59,4 @@ public class TouchHandler {
         ChangeDragEvent?.Invoke(delta * sensitive);
         _lastPosition = _currentPosition;
     }
-    
-    
 }
