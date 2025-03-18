@@ -37,7 +37,6 @@ public class Item : MonoBehaviour {
     
     private void OnTriggerExit2D(Collider2D other) {
         if (other.transform.TryGetComponent(out _pointItem)) {
-            _pointItem = null;
             _isPointItem = false;
             if (_thisTransform.parent.gameObject.activeInHierarchy) 
                 _thisTransform.parent = _startParent;
